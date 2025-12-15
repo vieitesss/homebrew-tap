@@ -3,7 +3,7 @@ cask "k8s-d2" do
   name "k8s-d2"
   desc "Generate D2 diagrams from Kubernetes cluster topology"
   homepage "https://github.com/vieitesss/k8s-d2"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "k8s-d2" do
   on_macos do
     on_intel do
       url "https://github.com/vieitesss/k8s-d2/releases/download/v#{version}/k8s-d2_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "55ec134de19b19a5714f8089fe5f8866e0b9fdb9850fbcb0c4ff702dc6ad9990"
+      sha256 "810835bd8de7846d92d3d9de43acf85287c5274819d5596bc04b345c861a4905"
     end
     on_arm do
       url "https://github.com/vieitesss/k8s-d2/releases/download/v#{version}/k8s-d2_#{version}_Darwin_arm64.tar.gz"
-      sha256 "558137918fc5e7baffd21c886454cdcb6c351c07d5ebb6648794118cd4d4441d"
+      sha256 "47aee2998b5e04e1c6a32708817a8bcf741fde7ea598b10011e08c05d7abee10"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vieitesss/k8s-d2/releases/download/v#{version}/k8s-d2_#{version}_Linux_x86_64.tar.gz"
-      sha256 "288888fd0f804211298a77619d6111e7f14a9f42719a9a326e674824e5e6b020"
+      sha256 "dcbf6698216633db9acf7585bc3326b7b7f7dc997d7b6e0198b57f3de8b791c6"
     end
     on_arm do
       url "https://github.com/vieitesss/k8s-d2/releases/download/v#{version}/k8s-d2_#{version}_Linux_arm64.tar.gz"
-      sha256 "298ee5731412a8d8043163286bdb50d860e3d35ba9774c1e3107e3f5a72c3448"
+      sha256 "d1c15a126b41c4f8402e4679237a05c7b9e4025f32874d5dc186e9195c2e1bdb"
     end
   end
 
